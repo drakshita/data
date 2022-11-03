@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>F-1 Feeder</title>
-</head>
-
-<body ng-app="F1FeederApp" ng-controller="driversController">
-  <table>
-    <thead>
-      <tr><th colspan="4">Drivers Championship Standings</th></tr>
-    </thead>
-    <tbody>
-      <tr ng-repeat="driver in driversList">
-        <td>{{$index + 1}}</td>
-        <td>
-          <img src="img/flags/{{driver.Driver.nationality}}.png" />
-          {{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
-        </td>
-        <td>{{driver.Constructors[0].name}}</td>
-        <td>{{driver.points}}</td>
-      </tr>
-    </tbody>
-  </table>
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/controllers.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <title>Baking Bootstrap Snippets with Jade</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Baking Bootstrap Snippets with Jade">
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/flatly/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body style="padding-bottom:10rem;">
+    <div class="container"></div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
+![image](https://user-images.githubusercontent.com/115208256/199652580-e6d67848-cd6f-4b4b-9523-2d91c2441800.png)
